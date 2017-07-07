@@ -1,3 +1,4 @@
+/*css for main part of home.php*/
 .container {
     width: 100%;
     height: auto
@@ -25,17 +26,172 @@ aside {
 }
 
 .text-aside {
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .text-aside h1 {
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 
 .main-article img {
-    width: 450px
+    width: 450px;
 }
 
 .main-article h1 {
-    margin: 15px 0 15px 0
+    margin: 15px 0 15px 0;
+}
+
+/*css for main part of service.php*/
+.container-services-upper-part {
+    width: 985px;
+    margin: 0 auto;
+}
+
+.container-services-upper-part .article-services article img {
+    float: left;
+    width: 357px;
+    margin-bottom: 45px;
+}
+
+.container-services-upper-part .article-services article h1,
+.container-services-upper-part .article-services article p {
+    float: right;
+}
+
+.container-services-upper-part .article-services article h1 {
+    font-size: 2.5em;
+    width: 602px;
+}
+
+.container-services-upper-part .article-services article p {
+    width: 598px;
+    font-size: 1.3em;
+}
+
+.container-services-upper-part .article-services:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container-services-bottom-part {
+    background: gainsboro;
+}
+.container-services-bottom-part .article-services {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-services-bottom-part .article-services article {
+    width: 550px;
+    padding: 65px 40px;
+}
+
+.container-services-bottom-part .article-services h1 {
+   margin-bottom: 20px;
+}
+
+/*css for main part of about.php*/
+.container-about-upper-part {
+    width: 900px;
+    margin: 0 auto;
+    border-bottom: 1px dotted;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.container-about-upper-part article h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-about-upper-part article h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-about-upper-part article p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.container-about-bottom-part {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.container-about-bottom-part .about-services {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-about-bottom-part .about-services article {
+    width: 300px;
+    margin-right: 40px;
+}
+
+.container-about-bottom-part .about-services article img {
+    border-radius: 50%;
+}
+
+.container-about-bottom-part .about-services article img,
+.container-about-bottom-part article h1,
+.container-about-bottom-part article h2 {
+    margin-bottom: 20px;
+}
+
+.container-about-bottom-part .about-services article:nth-child(2) > img,
+.container-about-bottom-part .about-services article:nth-child(3) > img {
+    width: 200px;
+    height: 190px;
+}
+
+.container-about-bottom-part article p {
+    font-size: 1.2em;
+}
+
+/*css for main part of store.php*/
+.container-store {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-store .store {
+    width: 300px;
+    background: #DDA0DD;
+}
+
+.container-store .store .store-products {
+    position: relative;
+}
+
+.container-store .store .store-products span:nth-child(1) {
+    color: white;
+    display: block;
+    text-align: center;
+    position: absolute;
+    background: pink;
+    width: 95%;
+    top: 10px;
+}
+
+.container-store .store .store-products img {
+    width: 284px;
+    height: 350px;
+}
+
+.container-store .store .store-products span:nth-child(2) {
+    color: white;
+    display: block;
+    text-align: center;
+    position: absolute;
+    background: pink;
+    bottom: 85px;
+}
+
+.container-store .store .store-products p {
+    width: 83%;
+    float: left;
 }
