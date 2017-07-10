@@ -21,10 +21,9 @@
 <main>
     <?php
     $pages = array("home", "services", "about", "store", "contact");
-    if(isset($_GET['page']) && in_array($_GET['page'],$pages))
-    {
-        include('pages/'.$_GET['page'].'.php');
-    }else{
+    if (isset($_GET['page']) && in_array($_GET['page'], $pages)) {
+        include('pages/' . $_GET['page'] . '.php');
+    } else {
         include('pages/home.php');
     }
     ?>

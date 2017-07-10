@@ -22,17 +22,17 @@
                     <div class="left-part">
                         <div class="name">
                             <label for="name">Name</label>
-                            <input type="text" name="name" id="name" required="required" />
+                            <input type="text" name="name" id="name" required="required"/>
                         </div>
 
                         <div class="email">
                             <label for="email">Email</label>
-                            <input type="text" name="email" id="email" required="required" />
+                            <input type="text" name="email" id="email" required="required"/>
                         </div>
 
                         <div class="subject">
                             <label for="subject">Subject</label>
-                            <input type="text" name="subject" id="subject" required="required" />
+                            <input type="text" name="subject" id="subject" required="required"/>
                         </div>
                     </div>
 
