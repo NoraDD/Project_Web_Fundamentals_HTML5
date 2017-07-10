@@ -16,7 +16,7 @@
                 You could also use it to introduce your team, their roles and why they are so important to your business.</p>
         </article>
         <article>
-            <img src="images/about_person_2.jpg" />
+            <img src="images/about_person_2.png" />
             <h2>Susan Bates</h2>
             <p>This area is fully editable and you can use it to promote your products, services and facilities.
                 You could also use it to introduce your team, their roles and why they are so important to your business.</p>

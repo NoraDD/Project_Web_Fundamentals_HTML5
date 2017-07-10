@@ -1,10 +1,10 @@
 <div class="header-part">
     <div>
-        <div>
+        <div class="upper-part">
             <h1>Quality Cakes</h1>
             <h3>Better Bakery</h3>
         </div>
-        <div>
+        <div class="bottom-part">
             <h2>Quality Baked Goods</h2>
         </div>
     </div>

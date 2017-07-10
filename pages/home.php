@@ -1,5 +1,4 @@
 <div class="container">
-
     <div class="main-article">
         <article>
             <img src="images/Quality%20Guaranteed.jpg" alt="">

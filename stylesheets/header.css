@@ -15,13 +15,13 @@
     left: 200px;
 }
 
-.header-part > div > div:first-of-type {
+.header-part > div > .upper-part {
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #ffffff;
 }
 
-.header-part > div > div:first-of-type h1 {
+.header-part > div > .upper-part h1 {
     width: 100px;
     font-weight: bold;
     color: #ffffff;
@@ -29,7 +29,7 @@
     margin-right: 157px;
 }
 
-.header-part > div > div:first-of-type h3 {
+.header-part > div > .upper-part h3 {
     margin-top: 109px;
     margin-bottom: 10px;
     padding: 8px;
@@ -38,7 +38,7 @@
     background: deeppink;
 }
 
-.header-part > div > div:last-of-type h2 {
+.header-part > div > .bottom-part h2 {
     padding: 8px;
     font-weight: 100;
     color: #ffffff;
@@ -75,6 +75,7 @@
     text-decoration: none;
     color: black;
 }
+
 
 
 

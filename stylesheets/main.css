@@ -41,6 +41,7 @@ aside {
     margin: 15px 0 15px 0;
 }
 
+
 /*css for main part of service.php*/
 .container-services-upper-part {
     width: 985px;
@@ -91,6 +92,7 @@ aside {
    margin-bottom: 20px;
 }
 
+
 /*css for main part of about.php*/
 .container-about-upper-part {
     width: 900px;
@@ -133,10 +135,10 @@ aside {
 
 .container-about-bottom-part .about-services article img {
     border-radius: 50%;
+    margin-left: 20px;
 }
 
 .container-about-bottom-part .about-services article img,
-.container-about-bottom-part article h1,
 .container-about-bottom-part article h2 {
     margin-bottom: 20px;
 }
@@ -147,51 +149,224 @@ aside {
     height: 190px;
 }
 
+.container-about-bottom-part article h2 {
+    text-align: center;
+    font-size: 2.0rem;
+}
+
 .container-about-bottom-part article p {
     font-size: 1.2em;
 }
+
 
 /*css for main part of store.php*/
 .container-store {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .container-store .store {
-    width: 300px;
+    width: 308px;
+    height: 466px;
+    margin-bottom: 25px;
     background: #DDA0DD;
+    margin-right: 25px;
 }
 
 .container-store .store .store-products {
     position: relative;
+    padding: 10px 9px 0 10px;
+    height: 100%;
 }
 
-.container-store .store .store-products span:nth-child(1) {
-    color: white;
-    display: block;
-    text-align: center;
+.store-products > span:nth-child(1) {
     position: absolute;
-    background: pink;
-    width: 95%;
     top: 10px;
-}
-
-.container-store .store .store-products img {
-    width: 284px;
-    height: 350px;
-}
-
-.container-store .store .store-products span:nth-child(2) {
-    color: white;
+    color: #ffffff;
     display: block;
     text-align: center;
-    position: absolute;
-    background: pink;
-    bottom: 85px;
+    background: #4B0082;
+    width: 89%;
+    padding: 7px;
+    font-size: 1.2rem;
 }
 
-.container-store .store .store-products p {
-    width: 83%;
+.store-products img {
+    width: 287px;
+    height: 350px;
+    margin-bottom: 8px;
+}
+
+.store-products > .discount {
+    position: absolute;
+    left: 20px;
+    bottom: 123px;
+    color: #ffffff;
+    border: 1px solid #4B0082;
+    background: #4B0082;
+    padding: 5px 10px;
+    font-weight: 400;
+}
+
+.store-products .type-product {
+    margin-bottom: 8px;
+}
+
+.store-products .type-product p,
+.store-products .description p {
     float: left;
+    font-size: 1.2rem;
+}
+
+.store-products .description p,
+.store-products .description span {
+    color: gray;
+}
+
+.store-products .description span {
+    text-decoration: line-through;
+}
+
+.store-products > .description > .description-info {
+    width: 85%;
+}
+
+.store-products .type-product span,
+.store-products .description span {
+    float: right;
+    font-size: 1.1rem;
+}
+
+.store-products .type-product:after,
+.store-products .description:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#paging {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#paging a {
+    font-size:0.9rem;
+    background-color:gainsboro;
+    border: 1px solid gray;
+    padding:0.5rem 0.9rem;
+    color: black;
+    text-decoration:none;
+}
+
+
+/*css for main part of contact.php*/
+.container-contact .visit-us-article {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.container-contact .visit-us-article .visit-us-img {
+    float: left;
+}
+
+.container-contact .visit-us-article .address-info {
+    float: right;
+    width: 400px;
+}
+
+.container-contact .visit-us-article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container-contact .visit-us-article .address-info h1,
+.container-contact .message-article h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+.container-contact .visit-us-article .address-info p,
+.container-contact .message-article p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.container-contact .message-article {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.container-contact .message-article h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container-contact .message-article p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.message-article form .form-parts .left-part {
+    float: left;
+    width: 440px;
+}
+
+.message-article form .form-parts .right-part {
+    float: right;
+    width: 425px;
+}
+
+.message-article form .form-parts:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.form-parts .left-part .name,
+.form-parts .left-part .email,
+.form-parts .left-part .subject {
+    margin-bottom: 16px;
+}
+
+
+.form-parts .left-part label,
+.form-parts .right-part label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.form-parts .left-part input {
+    width: 100%;
+    height: 40px;
+}
+
+.form-parts .right-part textarea {
+    width: 100%;
+}
+
+.button {
+    float: right;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background: deeppink;
+    color: #ffffff;
+    border: 1px solid deeppink;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #4B0082;
+    border: 1px solid #4B0082;
+}
+
+form:after {
+    content: '';
+    display: block;
+    clear: both;
 }

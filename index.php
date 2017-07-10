@@ -11,7 +11,6 @@
     <script src="javascripts/script.js"></script>
 </head>
 <body>
-
 <header>
     <?php
     include 'header.php';
@@ -35,6 +34,11 @@
     include("footer.php");
     ?>
 </footer>
+
+<div class="shopping-cart">
+    <span>0</span>
+    <a class="fa fa-shopping-cart"></a>
+</div>
 
 </body>
 </html>

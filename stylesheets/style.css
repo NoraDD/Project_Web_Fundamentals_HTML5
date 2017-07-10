@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +10,36 @@
 body {
     font-size: 16px;
     font-family: 'Bellefair', serif;
+    position: relative;
+}
+
+.shopping-cart span {
+    position: fixed;
+    bottom: 57px;
+    right: 120px;
+    z-index: 2;
+    border: 1px solid black;
+    color: deeppink;
+    background: black;
+    border-radius: 50%;
+    padding: 1px 3px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.fa-shopping-cart {
+    position: fixed;
+    bottom: 20px;
+    right: 115px;
+    color: black;
+    background: deeppink;
+    font-size: 1.9rem;
+    border-radius: 50%;
+    padding: 17px;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+.fa-shopping-cart:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
