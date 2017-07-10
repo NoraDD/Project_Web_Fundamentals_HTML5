@@ -1,45 +1,79 @@
 /*css for main part of home.php*/
-.container {
-    width: 100%;
-    height: auto
+.container{width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+margin-top: 50px;
 }
 
-.main-article {
-    float: left;
-    width: 450px;
-    margin-right: 30px
-}
+.main-article{float: left;
+width: 50%;
+width: 450px;
+margin-right: 30px}
 
-aside {
-    width: 40%;
-    float: left
-}
+aside{
+width: 40%;
+float: left}
 
-.aside-articles {
-    display: flex;
+.aside-articles{    display: flex;
     flex-direction: column;
+    }
+
+.aside-articles article{display: flex;
+padding-bottom: 20px;}  
+
+.text-aside{margin-left: 10px}  
+
+.text-aside h1{margin-bottom: 5px}
+
+.main-article img{width: 450px}
+.main-article h1{margin: 15px 0 15px 0}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
-.aside-articles article {
-    display: flex;
-    padding-bottom: 20px;
-}
 
-.text-aside {
-    margin-left: 10px;
-}
 
-.text-aside h1 {
-    margin-bottom: 5px;
-}
 
-.main-article img {
-    width: 450px;
-}
+/*link*/
+.link{width: 100%;
+height: 300px;
+background: url("../images/Taste the Difference.jpg") no-repeat;
+background-size: cover }
 
-.main-article h1 {
-    margin: 15px 0 15px 0;
-}
+.link h1{color: white;
+text-align: center;
+padding-top: 50px}
+
+button{    width: 290px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    margin:0 auto;
+    margin-top: 35px;
+    display: block;
+    font-size: 14px;}
+
+
+/*bottom articles    */
+
+.bottom-artic{    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #F7F7F7;
+    font-size: 14px;}
+
+.bottom-articles{width: 300px;
+height: 200px;
+margin-right: 20px;
+ }
+
+
 
 /*css for main part of service.php*/
 .container-services-upper-part {
