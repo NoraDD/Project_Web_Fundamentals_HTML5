@@ -1,0 +1,19 @@
+/*footer*/
+footer{height: 200px;
+background-color: black}
+
+.icons{    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;}
+
+.fa{font-size: 29px;
+    margin-right: 16px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px;
+}
+footer p{color: silver;
+    text-align: center;}
