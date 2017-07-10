@@ -27,7 +27,7 @@ body {
     cursor: pointer;
 }
 
-.fa-shopping-cart {
+.ic-shopping-cart {
     position: fixed;
     bottom: 20px;
     right: 115px;
@@ -36,10 +36,10 @@ body {
     font-size: 1.9rem;
     border-radius: 50%;
     padding: 17px;
-    box-shadow: 3px 3px 5px #888888;
+    box-shadow: 3px 3px 10px black;
 }
 
-.fa-shopping-cart:hover {
+.ic-shopping-cart:hover {
     opacity: 0.8;
     cursor: pointer;
 }

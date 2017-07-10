@@ -21,7 +21,7 @@
                         more about the produce you sell or ingredients you use.</p>
                 </div>
             </article>
-            
+
             <article>
                 <div class="img-aside">
                     <img src="images/Pastries 2.jpg" alt="">
@@ -51,7 +51,9 @@
 
 <div class="link">
     <h1>Taste the Difference</h1>
-    <button>Visit Us</button>
+    <a href="index.php?page=contact">
+        <button>Visit Us</button>
+    </a>
 </div>
 
 

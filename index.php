@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheets/style.css"/>
     <link rel="stylesheet" href="stylesheets/header.css"/>
     <link rel="stylesheet" href="stylesheets/main.css"/>
@@ -37,7 +36,7 @@
 
 <div class="shopping-cart">
     <span>0</span>
-    <a class="fa fa-shopping-cart"></a>
+    <a class="fa fa-shopping-cart ic-shopping-cart"></a>
 </div>
 
 </body>
