@@ -1,0 +1,26 @@
+@media all and (max-width: 950px) {
+
+.container{display: inline-block}
+.main-article{width: 90%;
+text-align: center}
+
+aside{width: 90%;
+margin: 30px;}
+
+.bottom-artic{display: inline-block;
+width: 100%;}
+
+.main-article img{width: 100%}
+
+.bottom-articles{width: 100%;
+    text-align: center;}}  
+
+@media all and (max-width: 550px) {
+
+.aside-articles article{    display: inline-block;
+    text-align: center;}
+
+.img-aside img{width: 100%} 
+
+button{width: 180px}   
+}  
