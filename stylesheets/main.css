@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .main-article {
@@ -108,12 +109,13 @@ button:hover {
 .container-services-upper-part {
     width: 985px;
     margin: 0 auto;
+    margin-bottom: 35px;
 }
 
 .container-services-upper-part .article-services article img {
     float: left;
     width: 357px;
-    margin-bottom: 45px;
+    margin-bottom: 10px;
 }
 
 .container-services-upper-part .article-services article h1,
@@ -232,26 +234,23 @@ button:hover {
 
 .container-store .store {
     width: 308px;
-    height: 466px;
     margin-bottom: 25px;
-    background: #DDA0DD;
     margin-right: 25px;
+    padding-bottom: 25px;
+    background: #DDA0DD;
 }
 
 .container-store .store .store-products {
     position: relative;
-    padding: 10px 9px 0 10px;
-    height: 100%;
+    padding: 10px 10px 0 10px;
+    height: auto;
 }
 
 .store-products > span:nth-child(1) {
-    position: absolute;
-    top: 10px;
     color: #ffffff;
     display: block;
     text-align: center;
     background: #4B0082;
-    width: 89%;
     padding: 7px;
     font-size: 1.2rem;
 }
@@ -262,10 +261,10 @@ button:hover {
     margin-bottom: 8px;
 }
 
-.store-products > .discount {
+.discount {
     position: absolute;
+    top: 350px;
     left: 20px;
-    bottom: 123px;
     color: #ffffff;
     border: 1px solid #4B0082;
     background: #4B0082;
@@ -293,7 +292,7 @@ button:hover {
 }
 
 .store-products > .description > .description-info {
-    width: 85%;
+    width: 81%;
 }
 
 .store-products .type-product span,

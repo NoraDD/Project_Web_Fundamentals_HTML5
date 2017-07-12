@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="stylesheets/header.css"/>
     <link rel="stylesheet" href="stylesheets/main.css"/>
     <link rel="stylesheet" href="stylesheets/footer.css"/>
-    <script src="javascripts/script.js"></script>
+    <link rel="stylesheet" href="stylesheets/responsive.css"/>
 </head>
 <body>
 <header>
@@ -39,5 +39,6 @@
     <a class="fa fa-shopping-cart ic-shopping-cart"></a>
 </div>
 
+<script src="javascripts/script.js"></script>
 </body>
 </html>

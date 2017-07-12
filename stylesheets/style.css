@@ -15,8 +15,8 @@ body {
 
 .shopping-cart span {
     position: fixed;
-    bottom: 57px;
-    right: 120px;
+    bottom: 52px;
+    right: 72px;
     z-index: 2;
     border: 1px solid black;
     color: deeppink;
@@ -30,12 +30,12 @@ body {
 .ic-shopping-cart {
     position: fixed;
     bottom: 20px;
-    right: 115px;
+    right: 65px;
     color: black;
     background: deeppink;
     font-size: 1.9rem;
     border-radius: 50%;
-    padding: 17px;
+    padding: 13px 18px 13px 13px;
     box-shadow: 3px 3px 10px black;
 }
 

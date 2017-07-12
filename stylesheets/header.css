@@ -1,81 +1,132 @@
 .header-part {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
     background: url("../images/cake-img-header.jpg") center center no-repeat;
     background-size: cover;
     height: 660px;
     max-width: 100%;
-    position: relative;
     margin-bottom: 45px;
+    position: relative;
 }
 
-.header-part > div {
+.header-part .header-wrapper {
     position: absolute;
     top: 222px;
     left: 200px;
 }
 
-.header-part > div > .upper-part {
+.header-part .header-wrapper .upper-part {
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
 }
 
-.header-part > div > .upper-part h1 {
-    width: 100px;
+.header-part .header-wrapper .upper-part h1 {
+    width: 200px;
     font-weight: bold;
     color: #ffffff;
     font-size: 4.3em;
-    margin-right: 157px;
+    margin-right: 60px;
 }
 
-.header-part > div > .upper-part h3 {
-    margin-top: 109px;
-    margin-bottom: 10px;
+.header-part .header-wrapper .upper-part h3 {
+    margin-top: 120px;
     padding: 8px;
     font-weight: 100;
     color: #ffffff;
     background: deeppink;
 }
 
-.header-part > div > .bottom-part h2 {
+.header-part .header-wrapper .bottom-part h2 {
     padding: 8px;
     font-weight: 100;
     color: #ffffff;
 }
 
-.header-part > nav {
-    position: absolute;
-    top: 435px;
-    left: 200px;
-}
-
-.header-part > nav ul {
+.header-wrapper .nav-header ul {
     list-style-type: none;
     background: #ffffff;
 }
 
-.header-part > nav ul li {
+.header-wrapper .nav-header ul li {
     display: inline-block;
     padding: 15px;
     color: black;
 }
 
-.header-part > nav ul li:hover {
+.header-wrapper .nav-header ul li:hover {
     background: pink;
     box-shadow: 3px 3px deeppink;
 }
 
-.header-part > nav ul li:hover a {
+.header-wrapper .nav-header ul li:hover a {
     color: deeppink;
     text-shadow: 1px 1px;
 }
 
-.header-part > nav ul li a {
+.header-wrapper .nav-header ul li a {
     text-decoration: none;
     color: black;
 }
 
+/* Dropdown Button */
+.dropbtn {
+    display: none;
+    background: deeppink url(../images/menu-icon.png) center no-repeat;
+    width: 40px;
+    height: 40px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #4B0082;
+    border-radius: 4px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: pink;
+    color: deeppink;
+    text-shadow: 1px 1px;
+}
+
+/* Show the dropdown menu (add this class to the .dropdown-content container
+when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}
 
 
 

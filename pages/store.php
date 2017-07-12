@@ -2,8 +2,8 @@
     <div class="store">
         <div class="store-products">
             <span>Sale</span>
-            <img src="images/store-page-cupcake-1.png"/>
             <span class="discount">25% off</span>
+            <img src="images/store-page-cupcake-1.png"/>
             <div class="type-product">
                 <p>Cupcake</p>
                 <span>&#36; 0.75</span>
@@ -60,8 +60,8 @@
     <div class="store">
         <div class="store-products">
             <span>Sale</span>
-            <img src="images/store-page-pastries-2.png"/>
             <span class="discount">33% off</span>
+            <img src="images/store-page-pastries-2.png"/>
             <div class="type-product">
                 <p>Pastries</p>
                 <span>&#36; 0.50</span>
