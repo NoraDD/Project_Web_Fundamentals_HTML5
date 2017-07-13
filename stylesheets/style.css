@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bellefair');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
@@ -9,7 +9,7 @@
 
 body {
     font-size: 16px;
-    font-family: 'Bellefair', serif;
+    font-family: 'Lato', sans-serif;
     position: relative;
 }
 

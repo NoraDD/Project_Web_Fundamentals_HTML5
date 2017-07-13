@@ -1,5 +1,48 @@
 /*responsive*/
 @media all and (max-width: 1050px) {
+    /*home.php*/
+    .container {
+        display: block;
+        width: 100%;
+    }
+
+    .main-article {
+        width: 100%;
+        text-align: center;
+    }
+
+    aside {
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .main-article img {
+        max-width: 100%
+    }
+
+    .main-article p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .text-aside p {
+        margin-right: 10px;
+    }
+
+    .bottom-artic {
+        display: block;
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .bottom-articles {
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin: 20px 20px 20px 0;
+    }
+
     /*contact.php*/
     .container-contact {
         margin-left: 20px;
@@ -174,37 +217,6 @@
     }
 }
 
-@media all and (max-width: 950px) {
-    /*home.php*/
-    .container {
-        display: inline-block
-    }
-
-    .main-article {
-        width: 90%;
-        text-align: center
-    }
-
-    aside {
-        width: 90%;
-        margin: 30px;
-    }
-
-    .bottom-artic {
-        display: inline-block;
-        width: 100%;
-    }
-
-    .main-article img {
-        width: 100%
-    }
-
-    .bottom-articles {
-        width: 100%;
-        text-align: center;
-    }
-}
-
 @media all and (max-width: 940px) {
 
     /*header*/
@@ -279,11 +291,16 @@
     }
 
     .img-aside img {
-        width: 100%
+        max-width: 100%
+    }
+
+    .bottom-articles p {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     button {
-        width: 180px
+        width: 180px;
     }
 }
 
