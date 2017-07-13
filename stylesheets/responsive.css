@@ -1,155 +1,5 @@
 /*responsive*/
-@media all and (max-width: 1000px) {
-    /*store.php*/
-    .container-store {
-        box-sizing: border-box;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .container-store .store {
-        box-sizing: border-box;
-        margin: 0 auto;
-        margin-bottom: 25px;
-        height: auto;
-    }
-
-    .container-store .store .store-products {
-        width: 100%;
-        box-sizing: border-box;
-    }
-}
-
-@media all and (max-width: 980px) {
-    /*service.php*/
-    .container-services-upper-part {
-        width: 100%;
-        text-align: center;
-    }
-
-    .container-services-upper-part .article-services article img {
-        float: none;
-        box-sizing: border-box;
-        max-width: 100%;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .container-services-upper-part .article-services article h1,
-    .container-services-upper-part .article-services article p {
-        float: none;
-    }
-
-    .container-services-upper-part .article-services article h1 {
-        width: 100%;
-    }
-
-    .container-services-upper-part .article-services article p {
-        box-sizing: border-box;
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .container-services-bottom-part {
-        /*box-sizing: border-box;*/
-        width: 100%;
-    }
-
-    .container-services-bottom-part .article-services {
-        /*box-sizing: border-box;*/
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .container-services-bottom-part .article-services article {
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0 auto;
-        padding: 20px 25px;
-    }
-
-    .container-services-bottom-part .article-services h1 {
-        text-align: center;
-    }
-}
-
-@media all and (max-width: 970px) {
-
-    /*header*/
-    .header-part .header-wrapper {
-        margin: 0 auto;
-        width: 65%;
-        position: static;
-    }
-
-    .header-part .header-wrapper .upper-part h3 {
-        text-align: center;
-        width: 100%;
-    }
-
-    .header-wrapper .nav-header {
-        width: 100%;
-    }
-
-    .header-wrapper .nav-header ul {
-        width: 100%;
-        display: flex;
-        align-self: center;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-    }
-
-    .header-wrapper .nav-header ul li {
-        text-align: center;
-        width: 100%;
-        padding: 15px 0;
-    }
-
-    /*about.php*/
-    .container-about-upper-part {
-        width: 100%;
-        box-sizing: border-box;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .container-about-upper-part article {
-        width: 100%;
-    }
-
-    .container-about-bottom-part {
-        width: 100%;
-    }
-
-    .container-about-bottom-part .about-services {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container-about-bottom-part .about-services article {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-
-    .container-about-bottom-part .about-services article img {
-        max-width: 100%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .container-about-bottom-part article h2 {
-        margin-top: 20px;
-    }
-
-    .container-about-bottom-part article p {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
+@media all and (max-width: 1050px) {
     /*contact.php*/
     .container-contact {
         margin-left: 20px;
@@ -165,6 +15,7 @@
     .container-contact .visit-us-article .visit-us-img {
         float: none;
         width: 100%;
+        margin-bottom: 15px;
     }
 
     .container-contact .visit-us-article .visit-us-img img {
@@ -201,18 +52,130 @@
         width: auto;
     }
 
-    /*shopping-cart icon*/
-    .shopping-cart span {
-        right: 27px;
+    /*about.php*/
+    .container-about-upper-part {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    .ic-shopping-cart {
-        right: 20px;
+    .container-about-upper-part article {
+        width: 100%;
+    }
+
+    .container-about-bottom-part {
+        width: 100%;
+    }
+
+    .container-about-bottom-part .about-services {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-about-bottom-part .about-services article {
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 35px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .container-about-bottom-part .about-services article img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .container-about-bottom-part article h2 {
+        margin-top: 20px;
+    }
+
+    .container-about-bottom-part article p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*service.php*/
+    .container-services-upper-part .article-services {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-services-upper-part .article-services img {
+        float: none;
+        box-sizing: border-box;
+        max-width: 100%;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-services-upper-part .article-services .services {
+        float: none;
+        width: 100%;
+    }
+
+    .container-services-upper-part .article-services .services p {
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container-services-bottom-part {
+        width: 100%;
+    }
+
+    .container-services-bottom-part .article-services {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-services-bottom-part .article-services article {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container-services-bottom-part .article-services h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .container-services-bottom-part .article-services p {
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    /*store.php*/
+    .container-store {
+        box-sizing: border-box;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container-store .store {
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        height: auto;
+    }
+
+    .container-store .store .store-products {
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
 @media all and (max-width: 950px) {
-
+    /*home.php*/
     .container {
         display: inline-block
     }
@@ -242,6 +205,48 @@
     }
 }
 
+@media all and (max-width: 940px) {
+
+    /*header*/
+    .header-part .header-wrapper {
+        margin: 0 auto;
+        width: 65%;
+        position: static;
+    }
+
+    .header-part .header-wrapper .upper-part h3 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-wrapper .nav-header {
+        width: 100%;
+    }
+
+    .header-wrapper .nav-header ul {
+        width: 100%;
+        display: flex;
+        align-self: center;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .header-wrapper .nav-header ul li {
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    /*shopping-cart icon*/
+    .shopping-cart span {
+        right: 27px;
+    }
+
+    .ic-shopping-cart {
+        right: 20px;
+    }
+}
+
 @media all and (max-width: 590px) {
     /*header*/
     .header-part .header-wrapper .upper-part {
@@ -264,24 +269,10 @@
     .dropbtn {
         display: inline-block;
     }
-
-    /*.header-wrapper .nav-header ul li {*/
-    /*text-align: center;*/
-    /*width: 100%;*/
-    /*padding: 10px 0;*/
-    /*margin: 0;*/
-    /*background: #f6f6f6;*/
-    /*}*/
-    /*.header-wrapper .nav-header:hover ul {*/
-    /*display: block;*/
-    /*}*/
-    /*.header-wrapper .nav-header ul li:hover {*/
-    /*box-shadow: none;*/
-    /*}*/
 }
 
 @media all and (max-width: 550px) {
-
+    /*home.php*/
     .aside-articles article {
         display: inline-block;
         text-align: center;

@@ -1,11 +1,13 @@
 /*css for main part of home.php*/
 .container {
-    width: 100%;
+    width: 1000px;
     height: auto;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 30px;
+
 }
 
 .main-article {
@@ -30,11 +32,12 @@ aside {
 }
 
 .text-aside {
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .text-aside h1 {
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    font-size: 1.5rem;
 }
 
 .main-article img {
@@ -42,7 +45,12 @@ aside {
 }
 
 .main-article h1 {
-    margin: 15px 0 15px 0
+    margin: 15px 0 15px 0;
+    font-size: 2.5rem;
+}
+
+.main-article p {
+    font-size: 1.2rem;
 }
 
 .container:after {
@@ -97,6 +105,8 @@ button:hover {
     padding-top: 30px;
     background-color: #F7F7F7;
     font-size: 14px;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .bottom-articles {
@@ -106,31 +116,31 @@ button:hover {
 }
 
 /*css for main part of service.php*/
-.container-services-upper-part {
-    width: 985px;
+.container-services-upper-part .article-services {
+    width: 1000px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
 
-.container-services-upper-part .article-services article img {
+.container-services-upper-part .article-services img {
     float: left;
     width: 357px;
     margin-bottom: 10px;
 }
 
-.container-services-upper-part .article-services article h1,
-.container-services-upper-part .article-services article p {
+.container-services-upper-part .article-services .services {
     float: right;
+    width: 600px;
 }
 
-.container-services-upper-part .article-services article h1 {
-    font-size: 2.5em;
-    width: 602px;
+.container-services-upper-part .article-services .services h1 {
+    font-size: 2.5rem;
 }
 
-.container-services-upper-part .article-services article p {
-    width: 598px;
-    font-size: 1.3em;
+.container-services-upper-part .article-services .services p {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-right: 45px;
 }
 
 .container-services-upper-part .article-services:after {
@@ -144,22 +154,28 @@ button:hover {
 }
 
 .container-services-bottom-part .article-services {
+    width: 1000px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
 
 .container-services-bottom-part .article-services article {
-    width: 550px;
-    padding: 65px 40px;
+    width: 586px;
+    margin: 50px 50px 50px 0;
 }
 
 .container-services-bottom-part .article-services h1 {
     margin-bottom: 20px;
 }
 
+.container-services-bottom-part .article-services p {
+    text-align: justify;
+}
+
 /*css for main part of about.php*/
 .container-about-upper-part {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
     border-bottom: 1px dotted;
     padding-bottom: 30px;
@@ -167,7 +183,7 @@ button:hover {
 }
 
 .container-about-upper-part article h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -178,12 +194,12 @@ button:hover {
 }
 
 .container-about-upper-part article p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-align: center;
 }
 
 .container-about-bottom-part {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
     margin-bottom: 40px;
 }
@@ -195,12 +211,13 @@ button:hover {
 
 .container-about-bottom-part .about-services article {
     width: 300px;
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .container-about-bottom-part .about-services article img {
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 44px;
 }
 
 .container-about-bottom-part .about-services article img,
@@ -324,7 +341,7 @@ button:hover {
 
 /*css for main part of contact.php*/
 .container-contact .visit-us-article {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
     margin-bottom: 45px;
 }
@@ -335,7 +352,7 @@ button:hover {
 
 .container-contact .visit-us-article .address-info {
     float: right;
-    width: 400px;
+    width: 422px;
 }
 
 .container-contact .visit-us-article:after {
@@ -346,7 +363,7 @@ button:hover {
 
 .container-contact .visit-us-article .address-info h1,
 .container-contact .message-article h1 {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
@@ -357,7 +374,7 @@ button:hover {
 }
 
 .container-contact .message-article {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
 }
 
